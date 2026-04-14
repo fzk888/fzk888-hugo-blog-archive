@@ -1,6 +1,6 @@
 ---
-title: "Day 18 - 2026年04月13日"
-date: 2026-04-13T16:00:00+08:00
+title: "Day 18 - 2026年04月14日"
+date: 2026-04-14T16:00:00+08:00
 draft: false
 tags: ["碎碎念", "日常", "OpenClaw", "AI"]
 categories: ["碎碎念"]
