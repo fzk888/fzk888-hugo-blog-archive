@@ -25,13 +25,13 @@
                 {{ $heroSubtitle | markdownify }}
             </div>
             <div class="blog-hero__chips animate__animated animate__fadeInUp animate__fast" style="--animate-delay: 220ms;">
-                <span>品牌运营</span>
+                <span>AI 应用开发</span>
                 <span>{{ $postCount }} 篇内容沉淀</span>
-                <span>AI 应用 · 技术探索</span>
+                <span>RAG · Agent · Prompt</span>
             </div>
             <div class="blog-hero__actions animate__animated animate__fadeInUp animate__fast" style="--animate-delay: 320ms;">
-                <a class="blog-hero__action blog-hero__action--primary" href="{{ "/posts/" | absURL }}">浏览文章</a>
-                <a class="blog-hero__action blog-hero__action--ghost" href="{{ "/about/" | absURL }}">关于我</a>
+                <a class="blog-hero__action blog-hero__action--primary" href="{{ "/projects/" | absURL }}">查看项目</a>
+                <a class="blog-hero__action blog-hero__action--ghost" href="{{ "/posts/" | absURL }}">阅读文章</a>
             </div>
             <div class="blog-hero__social animate__animated animate__fadeInUp animate__fast" style="--animate-delay: 420ms;">
                 {{- partial "social_icons.html" (dict "align" "left") -}}
@@ -47,12 +47,12 @@
                 <img draggable="false" src="{{ $heroImage | absURL }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
                     height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" loading="eager" />
                 {{- end }}
-                <span class="blog-hero__portrait-tag">Personal Blog</span>
+                <span class="blog-hero__portrait-tag">AI Builder</span>
             </div>
             <div class="blog-hero__panel-card animate__animated animate__fadeInUp animate__fast" style="--animate-delay: 260ms;">
-                <span class="blog-hero__panel-label">EXPLORE</span>
-                <h2>搜索站内内容</h2>
-                <p>输入关键词，快速定位文章、碎碎念和项目记录。</p>
+                <span class="blog-hero__panel-label">NOW</span>
+                <h2>正在构建 AI 应用作品集</h2>
+                <p>把学习、实验和真实项目都沉淀下来：从后端接口到模型工作流，从技术文章到日常复盘。</p>
                 <div class="home-search" id="home-search">
                     <form class="blog-hero__search-form" action="{{ "search/" | absURL }}" method="get">
                         <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20L16.65 16.65"></path></svg>
